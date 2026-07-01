@@ -1,8 +1,7 @@
 
 for(c = 1; c <= 10; c++){
     for(i = 1; i <= 10; i++){
-        var soma = c * i;
-        console.log(`${c} x ${i} = ${soma}`)
+        console.log(`${c} x ${i} = ${c*i}`)
     }
 }
 
